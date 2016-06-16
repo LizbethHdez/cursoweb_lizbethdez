@@ -1,0 +1,31 @@
+div{
+	width: 250px;
+	height: 150px;
+	font-size: 30px;
+	float: right;
+}
+
+.caja{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+.cajagrande{
+	position: relative;
+	width: 500px;
+	height: 300px;
+}
+.cafe{
+	background: #B89775;
+}
+.rosa{
+	background: #F8B3E5;
+}
+.amarillo{
+	background: #F9F9B6;
+}
+.verde{
+	background: #93F5AA;
+}
