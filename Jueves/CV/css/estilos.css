@@ -54,5 +54,68 @@ ul{
 	font-size: 15px;
 	font-family: arial;
 }
-/*.circulo{
-	border-radius: 50% /*
+.activo a:hover {
+	background: 
+}
+
+.informacion-bio{
+	margin:30px;
+	padding:20px;
+}
+.circulo{
+	border-radius: 50%;
+}
+.imagen-bio{
+	float: right;
+	margin-right: 100px;
+}
+.texto-bio{
+	margin-bottom: 50px;
+	margin-right: 100px;
+	font-weight: bold;
+	font-family: arial;
+	padding-right: 300px;
+}
+h2{
+	color: white;
+	background: #D7A5CE;
+	margin-right: 1025px;
+}
+a{
+	color: black
+}
+.titulo-estudios{
+	color: white;
+	background: #ACE9C4;
+	margin-right: 1025px;
+}
+.estudios ul{
+	list-style: none;
+	font-size: 30px;
+	font-family: Century;
+}
+.titulo-exp{
+	color: white;
+	background: #F9A1A1;
+	margin-right: 1025px;
+}
+span{
+	font-family: arial;
+	font-size: 18px;
+	color: black;
+	background-color:#94E7EE;	
+}
+.titulo.gustos{
+	color: white;
+	background: #D7A5CE;
+	margin-right: 1025px;
+}
+a .links{
+	
+	float: right;
+	font-size:40px;
+	font-family: arial
+	color:#0C1977;
+	display: inline;
+	text-decoration: none;
+}
