@@ -1,0 +1,211 @@
+body{
+	background-color: white;
+	margin: 0px;
+	border: 0px;
+	padding:0px;
+	font-family: arial;
+}
+.titulo-principal h1{
+	margin:0px;
+	border: 0px;
+	padding: 10px 0px;
+	padding-left: 10px;
+	background: #71C8CB;
+	color: white;
+	font-size: 30px;
+}
+
+/*menu-navegacion*/
+.menu-navegacion ul li{	
+	display: inline;
+	list-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 15px 50px;
+}
+.menu-navegacion{
+	background: #71C8CB;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}	
+.menu-navegacion ul{
+	margin:0;
+}
+.menu-navegacion ul li a{
+	padding: 10px 10px;
+	background-color:#71C8CB;
+	text-decoration: none;
+	color: white;
+}
+.menu-navegacion ul li:hover a{
+	background: #F6C2E4;
+}
+.introduccion {
+    display: block;
+    width:70%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top:  15px;
+    font-family: courier new;
+    border-bottom: 1px solid;
+    border-color:#DCDCDC;
+}
+.menu-navegacion li.activo a,
+.menu-navegacion li:hover a{
+	background: #F6C2E4; 
+}
+.introduccion h3{
+	font-size: 30px;
+	margin: 0px;
+}
+.introduccion img {
+    max-width: 100%;
+    height: auto;
+}
+span{
+	display: inline;
+	margin-left: 30px;
+	font-size: 20px;
+
+}
+.productouno ul {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	margin: 50px;
+	border:1px solid;
+    border-color:#DCDCDC;
+}
+.productouno a{
+	text-decoration: none;
+	background-color: #71C8CB;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	margin-top: 2px;
+	border-radius: 15px 30px;
+}
+.productouno li{
+	list-style: none;
+	display: inline-block;
+}	
+.productouno ul li{
+	display: block;
+}
+.padre{
+	text-align: center;
+	width: 150px;
+  	height: 150px;
+ 	display: table;
+  	margin: auto;
+  	border-bottom: 1px solid;
+	border-color: #DCDCDC;
+  	border-bottom-width: 50%;
+}
+.productouno{
+	display: table-cell;
+  	vertical-align: middle;
+}
+.padre ul li:hover a{
+	background: #F6C2E4;
+}
+.texto{
+	text-align: center;
+	display: table;
+	border-bottom: 1px solid;
+	border-color:#DCDCDC;
+	width: 50%;
+	margin: 0 auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.parrafos {
+	list-style: none;
+	padding: 10px 20px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 18px;
+	margin: auto;
+} 
+.titulo{
+	border-bottom: 1px solid ;
+	border-color: #71C8CB;
+	width: 40%;
+	text-align: center;
+}
+
+/*datos*/
+.datos ul li{	
+	display: inline;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 15px 50px;
+	padding: 0 15px;
+}
+.datos{
+	background: #CFCCCE;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: century;
+}	
+.datos ul{
+	margin:0;
+	padding: 10px 10px;
+	color: #F837BF;
+}
+.datos ul a{
+		list-style: none;
+		text-decoration: none;
+		color: #71C8CB;
+}
+
+
+
+.productodos ul {
+	display: block;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	margin: 50px;
+	border:1px solid;
+    border-color:#DCDCDC;
+}
+.productodos a{
+	text-decoration: none;
+	background-color: #71C8CB;
+	color: white;
+	padding: 5px;
+	font-size: 20px;
+	margin-top: 2px;
+	border-radius: 15px 30px;
+}
+.productodos li{
+	list-style: none;
+	display: inline-block;
+}	
+.productodos ul li{
+	display: block;
+}
+.madre{
+	text-align: center;
+	width: 150px;
+  	height: 150px;
+ 	display: table;
+  	margin: auto;
+  	border-bottom: 1px solid;
+	border-color: #DCDCDC;
+  	border-bottom-width: 90%;
+}
+.productodos{
+	display: table-cell;
+  	vertical-align: middle;
+}
+.madre ul li:hover a{
+	background: #F6C2E4;
+}
