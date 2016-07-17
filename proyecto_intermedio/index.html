@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Restaurante</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Restaurante</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Menú <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Orden</a></li>  
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<div class="container-fluid">
+
+	<div class="page-header">
+  <h1>Restaurante ""<small>Ordena aquí:</small></h1>
+	</div>
+
+  <!--<form name ="formularioCliente" class="formularioTipo1" method="get" action="mesero.html" onsubmit="">-->
+
+<!--<form method="get" action="mesero.html"> -->
+<form  action="mesero.html"  method="get" name ="formulariohido "onsubmit="validar()">
+
+
+<div class="row">
+  <div class="col-md-2">
+<h4>Número de mesa</h4>
+<select class="form-control" id="datosgen">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+</div>
+
+<div class="col-md-2">
+<h4>Número de personas</h4>
+<select class="form-control" id="datosgen">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7</option>
+  <option>8</option>
+  <option>9</option>
+  <option>10</option>
+
+</select>
+</div>
+  <div class="col-md-2">
+<h4>Adultos</h4> 
+<select class="form-control" id="datosgen">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7 ó más</option>
+</select>
+</div>
+
+ <div class="col-md-2">
+<h4>Niños</h4> 
+<select class="form-control" id="datosgen">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7 ó más</option>
+</select>
+</div>
+
+</div>
+
+<div class="page-header"></div>
+<h2>Platillos <small>¡Marca tu orden!</small></h2>
+
+<!-- <form method="get" action="mesero.html" name="elegir"> -->
+ <div class="row">
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="img/uno.jpe" alt="...">
+      <div class="caption">
+        <h3>Sopa de Elote</h3>
+        <p><h4>$79.90</h4></p>
+    <div class="checkbox">
+  		<span class="checkboxtext">
+  		<label>
+		<input type="checkbox" id="blankCheckbox" value="option1" name="palomita" aria-label="..." class="radio">
+  		</label>
+	</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="img/dos.jpe" alt="...">
+      <div class="caption">
+        <h3>Cordon blue</h3>
+        <p><h4>$139.90</h4></p>
+    <div class="checkbox">
+  		<label>
+    	<input type="checkbox" id="blankCheckbox" value="option1" name="palomita" aria-label="..." class="radio">
+  		</label>
+	</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="img/tres.jpg" alt="...">
+      <div class="caption">
+        <h3>Doricrazys</h3>
+        <p><h4>$89.90</h4></p>
+    <div class="checkbox">
+  		<label>
+    	<input type="checkbox" id="blankCheckbox" value="option1" name="palomita" aria-label="..." class="radio">
+  		</label>
+	</div>
+      </div>
+    </div>
+  </div>
+
+ <div class="col-sm-6 col-md-3">
+    <div class="thumbnail">
+      <img src="img/cuatro.jpg" alt="...">
+      <div class="caption">
+        <h3>Lemonade</h3>
+        <p><h4>$29.90</h4></p>
+    <div class="checkbox">
+  		<span class="checkboxtext">
+  		<label>
+		<input type="checkbox" id="blankCheckbox" value="option1" name="palomita" aria-label="..." class="radio">
+  		</label>
+	</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-5">
+  <h4>Si es necesario, añade alguna especificación :)</h4> 
+  <textarea class="form-control" rows="3" id="areatexto"></textarea>
+  </div>
+  </div>
+  
+	<div class="page-header orden"></div>
+	<h2>Orden Lista!</h2>
+	 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Enviar Datos</button>
+
+	<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  	<div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <h4>¿Los datos que ingresaste son correctos?</h4>
+      	<div class="modal-footer">
+       <button type="button" id="botoncambiar" class="btn btn-default" data-dismiss="modal"> Cambiar</button>
+       <button type="submit" id="botonaceptar" class="btn btn-primary " ><a href="javascript:enviar_formulario()" > Aceptar</a></button>
+    	</div>
+    </div>
+    
+  	</div>
+	</div> 
+  
+</form>
+
+  <!--</form>-->
+	</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
